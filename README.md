@@ -54,7 +54,7 @@ The final model is deployed in a Streamlit app for interactive predictions.
 #### Run locally
 ```python
 # clone repo
-git clone https://github.com/riddhibajaj/insurance-charges-prediction.git
+git clone https://github.com/rb-g/insurance-charges-prediction.git
 cd insurance-charges-prediction
 
 # install dependencies
