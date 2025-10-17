@@ -91,8 +91,6 @@ streamlit run streamlit_app.py
 ## Acknowledgments
 * Dataset: Kaggle — Medical Cost Personal Dataset
 * Libraries: `numpy`, `pandas`, `scipy`, `scikit-learn`, `matplotlib`, `streamlit`, `joblib`
-<<<<<<< HEAD
 
 ## License
 MIT License © 2025 Riddhi Bajaj
-=======
