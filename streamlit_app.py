@@ -5,7 +5,7 @@ import joblib
 
 # defining the clip_bmi function
 df_train = pd.read_csv(
-    "/Users/riddhibajaj/Documents/Python/Projects/Insurance_Project/insurance.csv")
+    "insurance.csv")
 bmi_upper_limit = df_train['bmi'].quantile(0.99)
 
 
@@ -15,7 +15,7 @@ def clip_bmi(x):
 
 # Loading the pipeline
 pipeline = joblib.load(
-    "/Users/riddhibajaj/Documents/Python/Projects/Insurance_Project/model_pipeline.pkl")
+    "model_pipeline.pkl")
 
 # building the calculator
 st.title("Insurance Charges Calculator")
